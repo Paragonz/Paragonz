@@ -90,6 +90,7 @@ body {
     background-size: cover;
     width: 100%;
     padding: 20px;
+}    
 
 .aboutme {
     background-color: rgb(241, 241, 241);
@@ -114,7 +115,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 2500px;
   position: relative;
   margin: auto;
 }
@@ -258,5 +259,48 @@ body {
 .btn:hover, .dropdown:hover .btn {
   background-color: #0b7dda;
 }
+
+#mySidenav a {
+  position: fixed;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  width: 100px;
+  background-color: #04AA6D;
+}
+
+#portfolio {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#about_school {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#about_me {
+  top: 200px;
+  background-color: #555;
+}
+
+#news {
+  top: 260px;
+  background-color: aqua;
+}
+
 
 
